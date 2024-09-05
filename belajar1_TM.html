@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML dengan gpt😘</title>
+    <style>
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .header {
+            font-weight: bold;
+            background-color: #008081;
+            color: white;
+        }
+        .kategori {
+            font-weight: bold;
+        }
+        .navbar {
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .navbar h1 {
+            float: right;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin-right:  100px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 100px;
+        }
+        .left-content {
+            padding-left: 20px;
+        }
+        .left-content li {
+            font-size: 30px;
+            color: rgb(112, 200, 255);
+            font-weight: bold;
+        }
+        .left-content h1 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+        .right-content {
+            width: 45%;
+        }
+        .biodata {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>HTML</h1>
+    </div>
+    <div style="float: right; margin-right: 100px; width: 200px; height: 20px; background-color: rgb(255, 157, 0);"></div>
+    <div class="container">
+        <div class="left-content">
+            <h1 style="color: rgb(4, 0, 255);">Tugas Materi</h1>
+            <h1 style="color: rgb(255, 187, 0);">HTML</h1>
+            <ul>
+                <li>Buatlah sebuah Biodata lengkap dengan menyertakan gambar</li>
+                <li>Buatlah tabel riwayat pendidikan anda sesuai struktur tabel di samping</li>
+            </ul>
+        </div>
+        <div class="right-content">
+            <table>
+                <tr>
+                    <td colspan="5" class="header">RIWAYAT PENDIDIKAN</td>
+                </tr>
+                <tr>
+                    <td class="header">KATEGORI</td>
+                    <td class="header">JENJANG</td>
+                    <td class="header">INSTANSI</td>
+                    <td class="header">JURUSAN</td>
+                    <td class="header">TAHUN LULUS</td>
+                </tr>
+                <tr>
+                    <td rowspan="5" class="kategori">FORMAL</td>
+                    <td>TK</td>
+                    <td>TK INDONESIA</td>
+                    <td>-</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>SD</td>
+                    <td>SDN INDONESIA</td>
+                    <td>-</td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td>SMP</td>
+                    <td>SMP INTERNASIONAL</td>
+                    <td>-</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>SMA</td>
+                    <td>SMA TECHNOLOGY</td>
+                    <td>Rekayasa Perangkat Lunak</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>UNIV</td>
+                    <td>UNIVERSITAS JEMBER</td>
+                    <td>Sistem Informasi</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="kategori">INFORMAL</td>
+                    <td>BOOTCAMP</td>
+                    <td>ENGLISH FIRST</td>
+                    <td>ENGLISH for BEGINNER</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>LES</td>
+                    <td>GANESHA OP</td>
+                    <td>PROGRAMMING</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="biodata">
+        <h2>Biodata</h2>
+        <div style="display: flex; align-items: flex-start; justify-content: space-between;">
+            <div>
+                <p><strong>Nama:</strong> Syahrial Rafky</p><br>
+                <p><strong>Tempat, Tanggal Lahir:</strong> Bondowoso, 08 Januari 2005</p><br>
+                <p><strong>Alamat:</strong> Jl. Panjaitan 2A, Bondowoso</p><br>
+                <p><strong>Email:</strong> syahrialrafky@gmail.com</p><br> 
+                <p><strong>Nomor Telepon:</strong> 085335440719</p><br>
+                <p><strong>Hobi:</strong> ceteef, mengoding, menyatir, dan ikhtiar</p><br>
+            </div>
+            <img src="foto_profil.jpg" alt="Foto Profil" style="width: 800px; height: 6050px; margin-right: 90px;">
+        </div>
+    </div>
+</body>
+</html>
